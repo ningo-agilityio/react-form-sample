@@ -23,6 +23,16 @@
   color: #61dafb;
 }
 
+.App-container {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.form-group label {
+  width: 100%;
+  text-align: left;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
