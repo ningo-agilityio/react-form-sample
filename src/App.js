@@ -59,7 +59,7 @@ class App extends Component {
             <Button variant="primary" type="submit">
               Submit
             </Button>
-          </Form>;
+          </Form>
         </div>
       </div>
     );
