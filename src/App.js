@@ -39,6 +39,17 @@ class App extends Component {
   handleSubmit = () => {
     console.log('Email: ', this.emailRef.value)
     console.log('Password: ', this.passwordRef.value)
+    fetch('https://httpbin.org/post', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({a: 1, b: 'Textual content'})
+    })
+      .then((data) => {
+        console.log(data)
+      })
   }
 
   render() {
