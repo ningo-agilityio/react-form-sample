@@ -92,7 +92,7 @@ class App extends Component {
               <Form.Check type="checkbox" label="Check me out" ref={this.getRefCheckout} />
             </Form.Group>
 
-            <Button variant="primary" type="submit" onClick={this.handleSubmit}>
+            <Button variant="primary" type="button" onClick={this.handleSubmit}>
               Submit
             </Button>
           </Form>
